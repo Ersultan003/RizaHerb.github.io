@@ -1,0 +1,114 @@
+// main: ..//style.less
+
+
+.header-menu {
+    width: 100%;
+    -webkit-box-shadow: 4px 30px 27px -7px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: 4px 30px 27px -7px rgba(0, 0, 0, 0.31);
+    box-shadow: 4px 30px 27px -7px rgba(0, 0, 0, 0.31);
+    padding: 15px 0;
+
+    .nav {
+        .nav__list {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+       
+
+            a {
+                text-decoration: none;
+            }
+
+            .nav__link {
+                color: @black;
+                text-transform: uppercase;
+                font-family: inherit;
+                font-family: "GothamProBold";
+                font-size: 14px;
+                padding: 0 1.5rem;
+            }
+
+            .search {
+                background-color: #f4f4f4;
+                border: none;
+                border-radius: 44px;
+                padding: 15px;
+                width: 250px;
+                outline: none;
+            }
+
+            .dropdown {
+                background-color: @accent;
+                color: @white;
+                width: 150px;
+                border-radius: 44px;
+                padding: 15px 15px;
+
+                .basket {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    color: @white;
+                    font-family: "GothamProLight";
+
+                }
+            }
+        }
+    }
+}
+.form {
+   
+    width: 330px;
+
+    p {
+        color: #75B051;
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 2rem;
+        text-align: start;
+
+        span {
+            text-transform: uppercase;
+        }
+    }
+}
+
+
+.cpa-control-label,
+.cpa-control-amount {
+    display: none
+}
+
+.cpa-group-field {
+    display: block;
+    width: 100%;
+    background: #F5F5F5;
+    border-radius: 40px;
+    border: 0;
+    padding: 18px;
+    
+    margin-bottom: 10px;
+}
+
+.btn,
+.cpa-input-submit {
+    text-decoration: none;
+    background: #75B051;
+    border-radius: 35px;
+    display: block;
+    margin-top: 20px;
+    padding: 17px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    width: 80%;
+    border: 0;
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    transition-duration: 1s;
+    text-align: start;
+}
+.btn,
+.cpa-input-submit:hover{
+   background-color:RGB(252,101,80)
+}
